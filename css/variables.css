@@ -1,0 +1,73 @@
+/* ==================== VARIABLES DE COULEURS ====================
+   À MODIFIER: Change les couleurs selon tes préférences
+   Les couleurs se changent ici et s'appliquent partout
+*/
+
+:root {
+    /* COULEURS PRINCIPALES */
+    --primary-color: #0066ff;
+--secondary-color: #00d4ff;
+--accent-color: #ff6b6b;
+    
+    /* ARRIÈRE-PLANS */
+    --dark-bg: #0a0e27;              /* Fond très sombre */
+    --light-bg: #f8f9fa;             /* Fond clair */
+    
+    /* TEXTES */
+    --text-dark: #1a1a1a;            /* Texte principal */
+    --text-light: #ffffff;           /* Texte blanc */
+    --text-muted: #6c757d;           /* Texte gris (description) */
+    
+    /* AUTRES */
+    --border-color: #e9ecef;         /* Bordures */
+    --shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
+    
+    /* TYPOGRAPHIE */
+    --font-family: 'Poppins', sans-serif;
+    --font-size-base: 16px;
+    --font-size-h1: 3.5rem;
+    --font-size-h2: 2.5rem;
+    --font-size-h3: 1.5rem;
+    
+    /* ESPACEMENTS */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+    
+    /* TRANSITIONS */
+    --transition: all 0.3s ease;
+    --transition-fast: all 0.15s ease;
+}
+
+/* ==================== EXEMPLES DE COULEURS PRÉDÉFINIES ====================
+
+Thème BLEU (défaut):
+--primary-color: #0066ff;
+--secondary-color: #00d4ff;
+--accent-color: #ff6b6b;
+
+Thème VIOLET:
+--primary-color: #7c3aed;
+--secondary-color: #a855f7;
+--accent-color: #ec4899;
+
+Thème ORANGE:
+--primary-color: #ff6b35;
+--secondary-color: #f7931e;
+--accent-color: #2563eb;
+
+Thème VERT:
+--primary-color: #10b981;
+--secondary-color: #34d399;
+--accent-color: #3b82f6;
+
+Thème GRIS PRO:
+--primary-color: #374151;
+--secondary-color: #6b7280;
+--accent-color: #3b82f6;
+
+*/
